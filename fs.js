@@ -5,5 +5,5 @@ fs.open("cosas.txt", "r", function(){});
 // Acceso a los contenidos del archivo
 fs.readFile("cosaas.txt", "utf8", function(error, datos){
     if(error) throw error;
-    console.log(datos);r
+    console.log(datos);
 });
