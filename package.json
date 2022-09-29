@@ -15,5 +15,13 @@
     "express": "^4.18.1",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Castas115/curso_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Castas115/curso_node/issues"
+  },
+  "homepage": "https://github.com/Castas115/curso_node#readme"
 }
