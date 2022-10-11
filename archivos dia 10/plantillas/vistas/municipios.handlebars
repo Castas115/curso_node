@@ -1,0 +1,17 @@
+<h3>Listado de municipios</h3>
+<table class="listado">
+    <thead>
+        <tr>
+            <td>Nº</td>
+            <td>Municipio</td>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each data.datos}}
+        <tr>
+            <td>{{@index}} </td>
+            <td>{{municipio}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

@@ -1,0 +1,10 @@
+<h3>Municipios de Gipuzkoa</h3>
+<!-- En Handlebars, podemos recorrer un array de datos mediante un bucle. Los bucles se declaran así: -->
+{{#each data.datos}}
+    {{@index}} : {{municipio}}  <br>
+{{/each}}
+
+<!-- 
+    Ese @index contiene el contador del bucle (empieza desde 0) 
+    this.municipio solo funciona dentro del bucle. this hace referencia a la fila actual. municipio es el campo de esa fila que queremos poner
+-->

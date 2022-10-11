@@ -1,0 +1,29 @@
+/*
+Estilos comunes a las plantillas del proyecto
+*/
+body {
+    background-color: antiquewhite;
+}
+
+
+/* Estilos para las tablas de los listados */
+.listado {
+    margin: 0 auto;
+    width: 40%;
+    border: 1px solid #036;
+    border-collapse: collapse;
+    background-color: white;
+}
+.listado thead {
+    background-color: #036;
+    color: white;
+}
+.listado td {
+    padding: 4px 6px;
+}
+.listado tbody tr:nth-child(odd) {
+    background-color: #EEE;
+}
+.listado tbody tr:hover {
+    background-color: #FFCC00;
+}

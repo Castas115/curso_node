@@ -1,0 +1,12 @@
+/* Estos estilos son solo para la página de nosotros */
+body {
+    /*background-color: dodgerblue;*/
+    background-image: url("https://img.freepik.com/free-photo/cloud-sky-twilight-times_74190-4017.jpg?w=2000");
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+iframe {
+    transform:rotate(-5deg);
+}
