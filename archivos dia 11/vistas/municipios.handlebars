@@ -1,0 +1,12 @@
+<p>Municipios de XXXXX:</p>
+<a href="/">Volver</a>
+<table>
+    {{#each data.datos}}
+    <tr>
+        <td>{{municipio}}</td>
+        <td><a href="https://es.wikipedia.org/wiki/{{municipio}}" target="_blank">Ver en Wikipedia</a></td>
+        <td><a href="https://www.google.es/maps/@{{latitud}},{{longitud}},13z" target="_blank">Ver en Google Maps</a></td>
+    </tr>
+    {{/each}}
+</table>
+
